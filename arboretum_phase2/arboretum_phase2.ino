@@ -41,7 +41,7 @@ SoftwareSerial XBee(0, 1); // arduino RX,TX (XBee Dout, Din)
   int BatteryValue;
 
 // Temp Sensor 
-int DS18S20_Pin = 8; //DS18S20 Signal pin on digital 8
+int DS18S20_Pin = 7; //DS18S20 Signal pin on digital 8
 
 //Temperature chip i/o
 OneWire ds(DS18S20_Pin);  // on digital pin 8
